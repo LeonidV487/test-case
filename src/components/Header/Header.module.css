@@ -1,0 +1,58 @@
+.header {
+    text-align: center;
+    padding-top: 2rem;
+    color: whitesmoke;
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+}
+
+.rounds{
+    display: grid;
+    padding-left: 20rem;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+.round1{
+    background-color: darkblue;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 7rem;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.round2{
+    position: center;
+    background-color: darkblue;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.round3{
+    background-color: brown;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: -7rem;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.number1{
+    padding-left: 0.5rem;
+}
+
+.number2{
+    padding-left: 0.5rem;
+}
+
+.number3{
+    padding-left: 0.5rem;
+}

@@ -1,0 +1,19 @@
+.textWrapper{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
+
+.textWrapper input{
+    width: 200px;
+    height: 20px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+.textInput{
+    margin-top: 20px;
+    margin-left: 70px;
+}
