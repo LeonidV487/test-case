@@ -11,14 +11,15 @@
 
 .rounds{
     display: grid;
-    padding-left: 20rem;
+    padding-left: 340px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
     grid-template-columns: 3fr 3fr 3fr;
 }
 
 .round1{
     background-color: darkblue;
-    color: whitesmoke;
-    font-weight: bold;
     margin-left: 7rem;
     width: 25px;
     height: 25px;
@@ -26,10 +27,7 @@
 }
 
 .round2{
-    position: center;
     background-color: darkblue;
-    color: whitesmoke;
-    font-weight: bold;
     width: 25px;
     height: 25px;
     border-radius: 100%;
@@ -37,22 +35,8 @@
 
 .round3{
     background-color: brown;
-    color: whitesmoke;
-    font-weight: bold;
     margin-left: -7rem;
     width: 25px;
     height: 25px;
     border-radius: 100%;
-}
-
-.number1{
-    padding-left: 0.5rem;
-}
-
-.number2{
-    padding-left: 0.5rem;
-}
-
-.number3{
-    padding-left: 0.5rem;
 }

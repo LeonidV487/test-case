@@ -1,6 +1,6 @@
-.businessWrapper input{
+.descriptionWrapper textarea{
     width: 580px;
-    height: 30px;
+    height: 180px;
     margin-top: 15px;
     font-size: 13px;
     padding: 6px 0 4px 10px;
@@ -9,7 +9,7 @@
     border-radius: 8px;
 }
 
-.businessWrapper{
+.descriptionWrapper{
     margin-top: 30px;
     margin-left: 70px;
 }
