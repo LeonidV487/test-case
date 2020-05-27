@@ -1,8 +1,33 @@
-.mainForm{
-    background-color: whitesmoke;
+.mainWrapper{
+    background-color: #F9F9F9;
     margin-top: 20px;
     margin-left: 370px;
-    width: 758px;
+    max-width: 790px;
     height: 700px;
     border-radius: 8px;
+}
+
+@media (max-width: 1300px) {
+    .mainWrapper{
+        max-width: 550px;
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .mainWrapper{
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 830px) {
+    .mainWrapper{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainWrapper{
+        margin-left: 1px;
+    }
 }

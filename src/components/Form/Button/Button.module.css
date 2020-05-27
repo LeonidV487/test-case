@@ -15,3 +15,9 @@
     border: 1px solid #cecece;
     border-radius: 8px;
 }
+
+@media (max-width: 700px) {
+    .buttonWrapper{
+        margin-left: 40px;
+    }
+}

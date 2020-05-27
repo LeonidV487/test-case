@@ -1,21 +1,28 @@
 .textWrapper{
     display: grid;
     grid-template-columns: 3fr 3fr;
+    margin-left: 70px;
     padding-top: 30px;
 }
 
 .textWrapper input{
-    width: 200px;
+    width: 69%;
     height: 30px;
     margin-top: 15px;
     font-size: 13px;
     padding: 6px 0 4px 10px;
     border: 1px solid #cecece;
-    background: #F6F6f6;
+    background: whitesmoke;
     border-radius: 8px;
 }
 
 .textInput{
     margin-top: 20px;
-    margin-left: 70px;
+
+}
+
+@media (max-width: 700px) {
+    .textWrapper{
+        margin-left: 40px;
+    }
 }

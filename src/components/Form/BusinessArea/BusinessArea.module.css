@@ -1,15 +1,21 @@
 .businessWrapper input{
-    width: 580px;
+    width: 85%;
     height: 30px;
     margin-top: 15px;
     font-size: 13px;
     padding: 6px 0 4px 10px;
     border: 1px solid #cecece;
-    background: #F6F6f6;
+    background: whitesmoke;
     border-radius: 8px;
 }
 
 .businessWrapper{
     margin-top: 30px;
     margin-left: 70px;
+}
+
+@media (max-width: 700px) {
+    .businessWrapper{
+        margin-left: 40px;
+    }
 }

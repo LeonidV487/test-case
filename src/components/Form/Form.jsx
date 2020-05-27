@@ -4,17 +4,17 @@ import TextInput from "./TextInput/TextInput";
 import BusinessArea from "./BusinessArea/BusinessArea";
 import Description from "./Description/Description";
 import FileAttachment from "./FileAttachment/FileAttachment";
-import StyledComponents from "./Button/Button";
+import Button from "./Button/Button";
 
 const Form = (props) => {
     return (
-        <form className={classes.mainForm}>
-           <TextInput />
-           <BusinessArea />
+        <div className={classes.mainWrapper}>
+           <TextInput companyInput={props.state.companyInput} dispatch={props.dispatch}/>
+           <BusinessArea businessInput={props.state.businessInput} dispatch={props.dispatch}/>
            <Description />
            <FileAttachment />
-           <StyledComponents/>
-        </form>
+           <Button state={props.state}/>
+        </div>
     )
 }
 
