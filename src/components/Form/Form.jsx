@@ -11,7 +11,7 @@ const Form = (props) => {
         <div className={classes.mainWrapper}>
            <TextInput companyInput={props.state.companyInput} dispatch={props.dispatch}/>
            <BusinessArea businessInput={props.state.businessInput} dispatch={props.dispatch}/>
-           <Description />
+           <Description descriptionInput={props.state.descriptionInput} dispatch={props.dispatch}/>
            <FileAttachment />
            <Button state={props.state}/>
         </div>
