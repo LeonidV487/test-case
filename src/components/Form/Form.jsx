@@ -13,7 +13,7 @@ const Form = (props) => {
            <BusinessArea businessInput={props.state.businessInput} dispatch={props.dispatch}/>
            <Description descriptionInput={props.state.descriptionInput} dispatch={props.dispatch}/>
            <FileAttachment />
-           <Button state={props.state}/>
+           <Button state={props.state} dispatch={props.dispatch}/>
         </div>
     )
 }

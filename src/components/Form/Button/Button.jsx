@@ -1,10 +1,12 @@
 import React from "react";
 import classes from './Button.module.css';
+import {checkCompanyActionCreator} from "../../../redux/company-reducer";
 
 const Button = (props) => {
 
     let checkFields = () => {
-        console.log('Error');
+        let action = checkCompanyActionCreator(props.state.companyInput.newTextCompanyName)
+        props.dispatch(action);
     }
 
     return (
